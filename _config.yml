@@ -26,3 +26,6 @@ github:
 
 gems:
       - jekyll-sitemap
+      
+google:
+  verification: "nmaghktbQvkiu7hY7f2xr35N1mPhZVz1tljrd0cM0wA" # Google webmaster verification
