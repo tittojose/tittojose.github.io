@@ -6,15 +6,15 @@ permalink:        pretty
 relative_permalinks: false
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            Titto
+tagline:          'Android developer'
+description:      'Passionate android developer'
+url:              http://tittojose.me/
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Titto Jose K'
+  url:            http://tittojose.me/
 
 paginate:         5
 
@@ -26,6 +26,6 @@ github:
 
 gems:
       - jekyll-sitemap
-      
+
 google:
   verification: "nmaghktbQvkiu7hY7f2xr35N1mPhZVz1tljrd0cM0wA" # Google webmaster verification
