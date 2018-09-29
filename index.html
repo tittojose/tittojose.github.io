@@ -1,38 +1,8 @@
----
-layout: default
-title: Home
----
-
-<div class="posts">
-  <img src="https://www.google.co.in/imgres?imgurl=http%3A%2F%2Fwww.manutd.com%2F~%2Fmedia%2F510AE241278B45FF97125DC1E1E32CBF.ashx&imgrefurl=http%3A%2F%2Fwww.manutd.com%2F&docid=9e5rvhE_Sd_HsM&tbnid=VYzWFRVQN_KgOM%3A&vet=1&w=696&h=699&bih=638&biw=1366&q=manchester%20united&ved=0ahUKEwiyuPS9w7fSAhVJxGMKHZfsC8oQMwgwKAAwAA&iact=mrc&uact=8#h=699&imgrc=VYzWFRVQN_KgOM:&vet=1&w=696">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<html>
+  <head>
+    <title>Titto Jose</title>
+  </head>
+  <body>
+    <h2>Site under construction.</h2>
+  </body>
+</html>
